@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
     --branco: white;
-    --cor-de-fundo: #6c0d8f;
-    --fundo-senha: #5819a9;
-    --fundo-texto: #5819a9;
+    --cor-de-fundo: #d3780f;
+    --fundo-senha: #0e34b1;
+    --fundo-texto: #0e34b1;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -149,5 +148,7 @@ label{
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
+    }
+}
     }
 }
